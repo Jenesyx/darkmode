@@ -1,0 +1,33 @@
+/* Fonts */
+@font-face {
+    font-family: Roboto;
+    src: url(../Fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(../Fonts/Roboto-Bold.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto;
+}
+
+body{
+    font-family: Roboto;
+    direction: ltr;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
