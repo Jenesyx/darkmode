@@ -30,6 +30,7 @@
     --dark-text-color: #eee;
 }
 
+/* Normal */
 body {
     font-family: Roboto;
     direction: ltr;
@@ -44,6 +45,7 @@ body {
     margin: 60px 0 0 0;
 }
 
+/* Dark */
 body.theme-dark {
     --background-color: var(--dark-background-color);
     --background-color-alt: var(--dark-background-color-alt);
@@ -51,6 +53,7 @@ body.theme-dark {
     --text-color: var(--dark-text-color);
 }
 
+/* Auto */
 @media (prefers-color-scheme : dark) {
     body.theme-auto {
         --background-color: var(--dark-background-color);
